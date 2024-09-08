@@ -1,6 +1,10 @@
 // JavaScript för framtida interaktivitet
 document.addEventListener("DOMContentLoaded", function() {
     console.log("Kafé Harmoni sida laddad.");
+
+    const orderButton = document.getElementById("orderButton");
     
-    // Lägg till mer interaktivitet här om det behövs
+    orderButton.addEventListener("click", function() {
+        alert("Tack för din beställning! Vi återkommer med detaljer.");
+    });
 });
